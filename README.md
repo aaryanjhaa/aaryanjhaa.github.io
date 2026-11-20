@@ -33,23 +33,13 @@ portfolio/
 
 ---
 
-## 🌐 How to Host on GitHub Pages
+## 🌐 Live Website
 
-You have two simple options for hosting your portfolio on GitHub:
+Your portfolio is live at:
+👉 **[https://aaryanjhaa.github.io](https://aaryanjhaa.github.io)**
 
-### Option 1: Root User Site (`https://<your-github-username>.github.io`)
-This option gives you the cleanest personal URL.
-1. Log in to [GitHub](https://github.com) and click **New Repository**.
-2. Name the repository exactly: `<your-github-username>.github.io`
-   *(Replace `<your-github-username>` with your actual GitHub username).*
-3. Set visibility to **Public**.
-4. Leave "Add a README file" unchecked (we already have our files).
-5. Click **Create repository**.
-
-### Option 2: Project Site (`https://<your-github-username>.github.io/portfolio`)
-1. Create a new repository named `portfolio`.
-2. Set visibility to **Public**.
-3. Click **Create repository**.
+GitHub Repository:
+👉 **[https://github.com/aaryanjhaa/aaryanjhaa.github.io](https://github.com/aaryanjhaa/aaryanjhaa.github.io)**
 
 ---
 
