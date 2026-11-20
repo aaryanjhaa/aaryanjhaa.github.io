@@ -98,6 +98,6 @@ Within 1–2 minutes, your website will be live at:
 
 ## ✏️ Customizing Your Content
 
-- **GitHub Links**: Update `https://github.com/aksaaryankumar` in `index.html` with your actual GitHub username.
+- **GitHub Profile**: Linked to `https://github.com/aaryanjhaa`.
 - **LinkedIn / Socials**: Add your LinkedIn or Twitter profile URLs in the contact and project sections.
 - **Projects**: Replace or add projects in the `<section id="projects">` block of `index.html`.
