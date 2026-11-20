@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aryan Jha - Computer Science Engineering Student at GITAM University. Applying computer engineering skills to modern automotive systems and software.">
+  <meta name="author" content="Aryan Jha">
+  <meta property="og:title" content="Aryan Jha | Portfolio">
+  <meta property="og:description" content="Computer Science Engineering Student passionate about applying computing, software, and embedded tech to the automotive industry.">
+  <meta property="og:type" content="website">
+  
+  <title>Aryan Jha | Computer Science & Automotive Software</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-accent">&lt;</span>Aryan Jha<span class="logo-accent"> /&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#focus" class="nav-link">Focus</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <svg class="icon sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="menu-toggle" class="btn-icon menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>B.Tech CSE Student &bull; GITAM University</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Aryan Jha</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Computer Science Engineering student bridging the gap between modern software systems and the next generation of the <strong>Automotive Industry</strong>.
+        </p>
+
+        <p class="hero-tagline">
+          Passionate about embedded software, intelligent telematics, connected vehicles, and building robust computing solutions for smart mobility.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <span class="highlight-value">2nd Year</span>
+            <span class="highlight-label">B.Tech CSE</span>
+          </div>
+          <div class="highlight-separator"></div>
+          <div class="highlight-item">
+            <span class="highlight-value">GITAM</span>
+            <span class="highlight-label">Hyderabad</span>
+          </div>
+          <div class="highlight-separator"></div>
+          <div class="highlight-item">
+            <span class="highlight-value">Automotive</span>
+            <span class="highlight-label">Tech & Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">My journey, background, and what drives my curiosity.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a 2nd-year undergraduate pursuing my Bachelor of Technology in Computer Science & Engineering at <strong>GITAM University Hyderabad</strong>.
+            </p>
+            <p>
+              While deeply engaged in fundamental computer science principles—from data structures and algorithms to systems architecture—my true passion lies in applying these computational skills to transform the <strong>Automotive Industry</strong>.
+            </p>
+          </div>
+
+          <div class="about-card card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <h3>My Mission</h3>
+            <p>
+              Today's vehicles are no longer purely mechanical machines—they are sophisticated supercomputers on wheels.
+            </p>
+            <p>
+              My goal is to innovate at the intersection of automotive engineering and software: building smart vehicle telematics, embedded controllers, real-time diagnostic systems, and efficient algorithms that enhance vehicle safety, autonomy, and sustainability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus Areas Section -->
+    <section class="section focus-section" id="focus">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Areas of Interest</h2>
+          <p class="section-subtitle">Where computer engineering meets automotive innovation.</p>
+        </div>
+
+        <div class="focus-grid">
+          <div class="focus-card card">
+            <div class="focus-icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Embedded Systems & IoT</h3>
+            <p>Developing firmware and microcontroller interfaces (Arduino, Raspberry Pi, ESP32) for sensor data acquisition, engine telemetry, and edge diagnostics.</p>
+          </div>
+
+          <div class="focus-card card">
+            <div class="focus-icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3>Connected Vehicles & Telematics</h3>
+            <p>Designing software pipelines for vehicle-to-cloud communications, GPS tracking, real-time fleet analytics, and remote diagnostic dashboards.</p>
+          </div>
+
+          <div class="focus-card card">
+            <div class="focus-icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <h3>Intelligent Algorithms & AI</h3>
+            <p>Exploring computer vision for driver assistance, obstacle detection, predictive maintenance, and route optimization for electric vehicles.</p>
+          </div>
+
+          <div class="focus-card card">
+            <div class="focus-icon-wrap">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Core Software Engineering</h3>
+            <p>Writing clean, efficient, and well-architected C/C++, Python, and Java programs with strong emphasis on computational complexity and reliability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Academic foundations and continuous learning.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item card">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">2023 &ndash; 2027 (Expected)</span>
+                <span class="timeline-status">Currently Enrolled &bull; 2nd Year</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Technology &ndash; Computer Science & Engineering</h3>
+              <h4 class="timeline-institution">GITAM (Deemed to be University), Hyderabad Campus</h4>
+              <p class="timeline-desc">
+                Building a strong grounding in core computer science, software engineering practices, and engineering problem-solving.
+              </p>
+              <div class="coursework-tags">
+                <span class="tag">Data Structures &amp; Algorithms</span>
+                <span class="tag">Object-Oriented Programming (Java/C++)</span>
+                <span class="tag">Computer Organization &amp; Architecture</span>
+                <span class="tag">Operating Systems</span>
+                <span class="tag">Database Management Systems</span>
+                <span class="tag">Discrete Mathematics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Hands-on applications connecting code to real-world automotive and systems challenges.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card card">
+            <div class="project-badge">Automotive &bull; IoT</div>
+            <h3 class="project-title">Vehicle Telematics &amp; OBD-II Diagnostics Logger</h3>
+            <p class="project-desc">
+              A prototype system designed to capture and visualize real-time vehicle diagnostic parameters such as engine RPM, speed, coolant temperature, and fuel consumption via simulated OBD-II protocols.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">OBD-II</span>
+              <span class="tech-pill">IoT</span>
+              <span class="tech-pill">Data Visualization</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/aksaaryankumar" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card card">
+            <div class="project-badge">Computer Vision &bull; Safety</div>
+            <h3 class="project-title">Smart Proximity &amp; Obstacle Detection Prototype</h3>
+            <p class="project-desc">
+              Computer vision-assisted proximity tracking simulating Advanced Driver Assistance Systems (ADAS). Detects front obstacles, computes relative distance, and triggers visual and acoustic alerts.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">C++</span>
+              <span class="tech-pill">OpenCV</span>
+              <span class="tech-pill">Ultrasonic / Sensors</span>
+              <span class="tech-pill">ADAS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/aksaaryankumar" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card card">
+            <div class="project-badge">Web &bull; Telemetry</div>
+            <h3 class="project-title">Connected Vehicle Telemetry Dashboard</h3>
+            <p class="project-desc">
+              Interactive dashboard displaying real-time vehicle status indicators, battery state-of-charge for EV powertrains, journey logs, and automated maintenance reminders.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">HTML5/CSS3</span>
+              <span class="tech-pill">REST APIs</span>
+              <span class="tech-pill">WebSockets</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/aksaaryankumar" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card card">
+            <div class="project-badge">Algorithms &bull; Mobility</div>
+            <h3 class="project-title">Smart EV Route &amp; Charging Station Optimizer</h3>
+            <p class="project-desc">
+              Algorithmic pathfinding implementation using graph theory (Dijkstra and A* variations) designed to determine energy-efficient routes while accounting for vehicle battery range and charging station waypoints.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Data Structures</span>
+              <span class="tech-pill">Graph Algorithms</span>
+              <span class="tech-pill">Optimization</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/aksaaryankumar" target="_blank" rel="noopener noreferrer" class="link-btn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Technical toolbox spanning software, systems, and embedded computing.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group card">
+            <div class="skill-group-title">
+              <span class="group-icon">&lt;/&gt;</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="tags-container">
+              <span class="tag">C</span>
+              <span class="tag">C++</span>
+              <span class="tag">Python</span>
+              <span class="tag">Java</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <div class="skill-group-title">
+              <span class="group-icon">⚡</span>
+              <h3>Automotive &amp; Systems</h3>
+            </div>
+            <div class="tags-container">
+              <span class="tag">Embedded Systems</span>
+              <span class="tag">Microcontrollers (Arduino/ESP32)</span>
+              <span class="tag">Sensor Interfacing</span>
+              <span class="tag">Vehicle Telematics Concepts</span>
+              <span class="tag">CAN Bus Basics</span>
+              <span class="tag">IoT Protocols</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <div class="skill-group-title">
+              <span class="group-icon">🧠</span>
+              <h3>Computer Science Foundations</h3>
+            </div>
+            <div class="tags-container">
+              <span class="tag">Data Structures &amp; Algorithms</span>
+              <span class="tag">Object-Oriented Design</span>
+              <span class="tag">Operating Systems</span>
+              <span class="tag">Computer Networks</span>
+              <span class="tag">Problem Solving</span>
+              <span class="tag">System Design Fundamentals</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <div class="skill-group-title">
+              <span class="group-icon">🛠️</span>
+              <h3>Tools, Platforms &amp; Web</h3>
+            </div>
+            <div class="tags-container">
+              <span class="tag">Git &amp; GitHub</span>
+              <span class="tag">Linux / Unix CLI</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">HTML5 &amp; CSS3</span>
+              <span class="tag">RESTful APIs</span>
+              <span class="tag">GitHub Pages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box card">
+          <div class="contact-header">
+            <span class="contact-badge">Let's Connect</span>
+            <h2 class="contact-title">Interested in Collaborating or Chatting?</h2>
+            <p class="contact-subtitle">
+              Whether you want to discuss automotive software, collaborative engineering projects, or internships, my inbox is always open.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:aksaaryankumar@gmail.com" class="btn btn-primary contact-email-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>aksaaryankumar@gmail.com</span>
+            </a>
+
+            <a href="https://github.com/aksaaryankumar" target="_blank" rel="noopener noreferrer" class="btn btn-secondary contact-github-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        &copy; <span id="current-year"></span> Aryan Jha &bull; Crafted with semantic HTML &amp; modern CSS.
+      </p>
+      <p class="footer-host">
+        Hosted with &hearts; on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
